@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation">
+<test name="Scenarios">
+<classes>
+<class name="com.logfourj.practices.HomeWork1"/>
+
+<class name="com.logfourj.practices.HomeWork2"/>
+
+<class name="com.logfourj.practices.HomeWork3"/>
+
+<class name="com.logfourj.practices.HomeWork4"/>
+
+<class name="com.logfourj.practices.HomeWork5"/>
+
+<class name="com.logfourj.practices.HomeWork6"/>
+
+<class name="com.logfourj.practices.HomeWork7"/>
+
+<class name="com.logfourj.practices.HomeWork9"/>
+
+<class name="com.logfourj.practices.HomeWork10"/>
+
+</classes>
+
+</test>
+
+</suite>

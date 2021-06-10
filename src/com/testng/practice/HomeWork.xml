@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation">
+
+
+<test name="Scenarios">
+
+
+<classes>
+
+<class name="com.testng.practice.HomeWork1"/>
+
+<class name="com.testng.practice.HomeWork2"/>
+
+<class name="com.testng.practice.HomeWord3"/>
+
+<class name="com.testng.practice.HomeWork4"/>
+
+<class name="com.testng.practice.HomeWork5"/>
+
+<class name="com.testng.practice.HomeWork6"/>
+
+<class name="com.testng.practice.HomeWork7"/>
+
+<class name="com.testng.practice.HomeWork9"/>
+
+<class name="com.testng.practice.HomeWork10"/>
+
+</classes>
+
+</test>
+
+</suite>

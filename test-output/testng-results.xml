@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="110" passed="110">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="549018" started-at="2021-06-05T17:32:09 IST" finished-at="2021-06-05T17:41:18 IST">
+    <groups>
+    </groups>
+    <test name="Scenarios" duration-ms="549018" started-at="2021-06-05T17:32:09 IST" finished-at="2021-06-05T17:41:18 IST">
+      <class name="com.logfourj.practices.HomeWork9">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="launchBrowser" duration-ms="1560" started-at="2021-06-05T17:36:53 IST" finished-at="2021-06-05T17:36:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="navigate" duration-ms="5337" started-at="2021-06-05T17:36:54 IST" finished-at="2021-06-05T17:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="login" duration-ms="4337" started-at="2021-06-05T17:37:00 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:37:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="User1()[pri:5, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User1" duration-ms="11988" started-at="2021-06-05T17:37:04 IST" finished-at="2021-06-05T17:37:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1 -->
+        <test-method status="PASS" signature="User2()[pri:6, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User2" duration-ms="8702" started-at="2021-06-05T17:37:16 IST" finished-at="2021-06-05T17:37:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2 -->
+        <test-method status="PASS" signature="User3()[pri:7, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User3" duration-ms="8726" started-at="2021-06-05T17:37:25 IST" finished-at="2021-06-05T17:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User3 -->
+        <test-method status="PASS" signature="logout()[pri:8, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="logout" duration-ms="2407" started-at="2021-06-05T17:37:33 IST" finished-at="2021-06-05T17:37:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="User1Loging()[pri:9, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User1Loging" duration-ms="9843" started-at="2021-06-05T17:37:36 IST" finished-at="2021-06-05T17:37:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1Loging -->
+        <test-method status="PASS" signature="User1logout()[pri:10, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User1logout" duration-ms="2284" started-at="2021-06-05T17:37:46 IST" finished-at="2021-06-05T17:37:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1logout -->
+        <test-method status="PASS" signature="User2Loging()[pri:11, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User2Loging" duration-ms="5404" started-at="2021-06-05T17:37:48 IST" finished-at="2021-06-05T17:37:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2Loging -->
+        <test-method status="PASS" signature="User2Logout()[pri:12, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User2Logout" duration-ms="2310" started-at="2021-06-05T17:37:53 IST" finished-at="2021-06-05T17:37:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2Logout -->
+        <test-method status="PASS" signature="User3Loging()[pri:13, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User3Loging" duration-ms="5327" started-at="2021-06-05T17:37:56 IST" finished-at="2021-06-05T17:38:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User3Loging -->
+        <test-method status="PASS" signature="User3Logout()[pri:14, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="User3Logout" duration-ms="2314" started-at="2021-06-05T17:38:01 IST" finished-at="2021-06-05T17:38:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User3Logout -->
+        <test-method status="PASS" signature="Admin1login()[pri:15, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="Admin1login" duration-ms="2236" started-at="2021-06-05T17:38:03 IST" finished-at="2021-06-05T17:38:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin1login -->
+        <test-method status="PASS" signature="deleteUser1()[pri:16, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="deleteUser1" duration-ms="9947" started-at="2021-06-05T17:38:05 IST" finished-at="2021-06-05T17:38:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser1 -->
+        <test-method status="PASS" signature="deleteUser2()[pri:17, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="deleteUser2" duration-ms="9316" started-at="2021-06-05T17:38:15 IST" finished-at="2021-06-05T17:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser2 -->
+        <test-method status="PASS" signature="deleteUser3()[pri:18, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="deleteUser3" duration-ms="9399" started-at="2021-06-05T17:38:25 IST" finished-at="2021-06-05T17:38:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser3 -->
+        <test-method status="PASS" signature="Adminlogout()[pri:19, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="Adminlogout" duration-ms="2363" started-at="2021-06-05T17:38:34 IST" finished-at="2021-06-05T17:38:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adminlogout -->
+        <test-method status="PASS" signature="closeApplication()[pri:20, instance:com.logfourj.practices.HomeWork9@612fc6eb]" name="closeApplication" duration-ms="335" started-at="2021-06-05T17:38:37 IST" finished-at="2021-06-05T17:38:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork9 -->
+      <class name="com.logfourj.practices.HomeWork7">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork7@eafc191]" name="LaunchBrowser" duration-ms="7841" started-at="2021-06-05T17:35:51 IST" finished-at="2021-06-05T17:35:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork7@eafc191]" name="navigate" duration-ms="2736" started-at="2021-06-05T17:35:58 IST" finished-at="2021-06-05T17:36:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork7@eafc191]" name="login" duration-ms="5801" started-at="2021-06-05T17:36:01 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:36:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:4, instance:com.logfourj.practices.HomeWork7@eafc191]" name="CreateCustomer" duration-ms="3710" started-at="2021-06-05T17:36:07 IST" finished-at="2021-06-05T17:36:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="CreateProject()[pri:5, instance:com.logfourj.practices.HomeWork7@eafc191]" name="CreateProject" duration-ms="8982" started-at="2021-06-05T17:36:11 IST" finished-at="2021-06-05T17:36:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="createTask()[pri:6, instance:com.logfourj.practices.HomeWork7@eafc191]" name="createTask" duration-ms="4956" started-at="2021-06-05T17:36:20 IST" finished-at="2021-06-05T17:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="deleteTask()[pri:7, instance:com.logfourj.practices.HomeWork7@eafc191]" name="deleteTask" duration-ms="9168" started-at="2021-06-05T17:36:25 IST" finished-at="2021-06-05T17:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method status="PASS" signature="DeleteProject()[pri:8, instance:com.logfourj.practices.HomeWork7@eafc191]" name="DeleteProject" duration-ms="6156" started-at="2021-06-05T17:36:34 IST" finished-at="2021-06-05T17:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method status="PASS" signature="DeleteCustomer()[pri:9, instance:com.logfourj.practices.HomeWork7@eafc191]" name="DeleteCustomer" duration-ms="6073" started-at="2021-06-05T17:36:40 IST" finished-at="2021-06-05T17:36:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:10, instance:com.logfourj.practices.HomeWork7@eafc191]" name="logout" duration-ms="2417" started-at="2021-06-05T17:36:46 IST" finished-at="2021-06-05T17:36:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:11, instance:com.logfourj.practices.HomeWork7@eafc191]" name="closeApplication" duration-ms="4230" started-at="2021-06-05T17:36:48 IST" finished-at="2021-06-05T17:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork7 -->
+      <class name="com.logfourj.practices.HomeWork6">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="LaunchBrowser" duration-ms="7314" started-at="2021-06-05T17:35:00 IST" finished-at="2021-06-05T17:35:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="navigate" duration-ms="2725" started-at="2021-06-05T17:35:07 IST" finished-at="2021-06-05T17:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="login" duration-ms="5821" started-at="2021-06-05T17:35:10 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:35:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:4, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="CreateCustomer" duration-ms="3768" started-at="2021-06-05T17:35:16 IST" finished-at="2021-06-05T17:35:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="CreateProject()[pri:5, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="CreateProject" duration-ms="9018" started-at="2021-06-05T17:35:20 IST" finished-at="2021-06-05T17:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="modifyProject()[pri:6, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="modifyProject" duration-ms="6016" started-at="2021-06-05T17:35:29 IST" finished-at="2021-06-05T17:35:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method status="PASS" signature="DeleteProject()[pri:7, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="DeleteProject" duration-ms="7449" started-at="2021-06-05T17:35:35 IST" finished-at="2021-06-05T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method status="PASS" signature="DeleteCustomer()[pri:8, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="DeleteCustomer" duration-ms="3083" started-at="2021-06-05T17:35:42 IST" finished-at="2021-06-05T17:35:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:9, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="logout" duration-ms="2400" started-at="2021-06-05T17:35:45 IST" finished-at="2021-06-05T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:10, instance:com.logfourj.practices.HomeWork6@4eb7f003]" name="closeApplication" duration-ms="2794" started-at="2021-06-05T17:35:48 IST" finished-at="2021-06-05T17:35:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork6 -->
+      <class name="com.logfourj.practices.HomeWork5">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork5@87f383f]" name="LaunchBrowser" duration-ms="6797" started-at="2021-06-05T17:34:23 IST" finished-at="2021-06-05T17:34:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork5@87f383f]" name="navigate" duration-ms="2775" started-at="2021-06-05T17:34:29 IST" finished-at="2021-06-05T17:34:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork5@87f383f]" name="login" duration-ms="5832" started-at="2021-06-05T17:34:32 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:34:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:4, instance:com.logfourj.practices.HomeWork5@87f383f]" name="CreateCustomer" duration-ms="3709" started-at="2021-06-05T17:34:38 IST" finished-at="2021-06-05T17:34:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="CreateProject()[pri:5, instance:com.logfourj.practices.HomeWork5@87f383f]" name="CreateProject" duration-ms="3139" started-at="2021-06-05T17:34:42 IST" finished-at="2021-06-05T17:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="DeleteProject()[pri:6, instance:com.logfourj.practices.HomeWork5@87f383f]" name="DeleteProject" duration-ms="7465" started-at="2021-06-05T17:34:45 IST" finished-at="2021-06-05T17:34:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProject -->
+        <test-method status="PASS" signature="DeleteCustomer()[pri:7, instance:com.logfourj.practices.HomeWork5@87f383f]" name="DeleteCustomer" duration-ms="3080" started-at="2021-06-05T17:34:52 IST" finished-at="2021-06-05T17:34:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:8, instance:com.logfourj.practices.HomeWork5@87f383f]" name="logout" duration-ms="2424" started-at="2021-06-05T17:34:55 IST" finished-at="2021-06-05T17:34:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:9, instance:com.logfourj.practices.HomeWork5@87f383f]" name="closeApplication" duration-ms="2310" started-at="2021-06-05T17:34:58 IST" finished-at="2021-06-05T17:35:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork5 -->
+      <class name="com.logfourj.practices.HomeWork4">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="LaunchBrowser" duration-ms="7311" started-at="2021-06-05T17:33:48 IST" finished-at="2021-06-05T17:33:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="navigate" duration-ms="3183" started-at="2021-06-05T17:33:55 IST" finished-at="2021-06-05T17:33:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="login" duration-ms="5802" started-at="2021-06-05T17:33:58 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:34:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:4, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="CreateCustomer" duration-ms="3638" started-at="2021-06-05T17:34:04 IST" finished-at="2021-06-05T17:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="ModifyCustomer()[pri:5, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="ModifyCustomer" duration-ms="6061" started-at="2021-06-05T17:34:08 IST" finished-at="2021-06-05T17:34:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyCustomer -->
+        <test-method status="PASS" signature="DeleteCustomer()[pri:6, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="DeleteCustomer" duration-ms="3061" started-at="2021-06-05T17:34:14 IST" finished-at="2021-06-05T17:34:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="logout" duration-ms="3409" started-at="2021-06-05T17:34:17 IST" finished-at="2021-06-05T17:34:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:8, instance:com.logfourj.practices.HomeWork4@6121c9d6]" name="closeApplication" duration-ms="2182" started-at="2021-06-05T17:34:20 IST" finished-at="2021-06-05T17:34:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork4 -->
+      <class name="com.logfourj.practices.HomeWork3">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="LaunchBrowser" duration-ms="8384" started-at="2021-06-05T17:33:16 IST" finished-at="2021-06-05T17:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="navigate" duration-ms="2875" started-at="2021-06-05T17:33:25 IST" finished-at="2021-06-05T17:33:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="login" duration-ms="5795" started-at="2021-06-05T17:33:28 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:33:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateCustomer()[pri:4, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="CreateCustomer" duration-ms="3734" started-at="2021-06-05T17:33:33 IST" finished-at="2021-06-05T17:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="DeleteCustomer()[pri:5, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="DeleteCustomer" duration-ms="5193" started-at="2021-06-05T17:33:37 IST" finished-at="2021-06-05T17:33:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:6, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="logout" duration-ms="2472" started-at="2021-06-05T17:33:42 IST" finished-at="2021-06-05T17:33:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:7, instance:com.logfourj.practices.HomeWork3@ed9d034]" name="closeApplication" duration-ms="3143" started-at="2021-06-05T17:33:45 IST" finished-at="2021-06-05T17:33:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork3 -->
+      <class name="com.logfourj.practices.HomeWork2">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="launchBrowser" duration-ms="1928" started-at="2021-06-05T17:32:42 IST" finished-at="2021-06-05T17:32:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="navigate" duration-ms="5793" started-at="2021-06-05T17:32:44 IST" finished-at="2021-06-05T17:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="login" duration-ms="4289" started-at="2021-06-05T17:32:50 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:32:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="flyWindowMinimize()[pri:4, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="flyWindowMinimize" duration-ms="2141" started-at="2021-06-05T17:32:54 IST" finished-at="2021-06-05T17:32:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flyWindowMinimize -->
+        <test-method status="PASS" signature="createUser()[pri:5, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="createUser" duration-ms="8915" started-at="2021-06-05T17:32:56 IST" finished-at="2021-06-05T17:33:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="modifyUser()[pri:6, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="modifyUser" duration-ms="6497" started-at="2021-06-05T17:33:05 IST" finished-at="2021-06-05T17:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:7, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="deleteUser" duration-ms="2248" started-at="2021-06-05T17:33:12 IST" finished-at="2021-06-05T17:33:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="logOut()[pri:8, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="logOut" duration-ms="1792" started-at="2021-06-05T17:33:14 IST" finished-at="2021-06-05T17:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeApplication()[pri:9, instance:com.logfourj.practices.HomeWork2@4d3167f4]" name="closeApplication" duration-ms="413" started-at="2021-06-05T17:33:16 IST" finished-at="2021-06-05T17:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork2 -->
+      <class name="com.logfourj.practices.HomeWork10">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork10@1060b431]" name="launchBrowser" duration-ms="1680" started-at="2021-06-05T17:38:37 IST" finished-at="2021-06-05T17:38:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork10@1060b431]" name="navigate" duration-ms="4513" started-at="2021-06-05T17:38:39 IST" finished-at="2021-06-05T17:38:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork10@1060b431]" name="login" duration-ms="4362" started-at="2021-06-05T17:38:43 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:38:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="User1()[pri:5, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1" duration-ms="12346" started-at="2021-06-05T17:38:47 IST" finished-at="2021-06-05T17:39:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1 -->
+        <test-method status="PASS" signature="logout()[pri:6, instance:com.logfourj.practices.HomeWork10@1060b431]" name="logout" duration-ms="2363" started-at="2021-06-05T17:39:00 IST" finished-at="2021-06-05T17:39:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="User1Loging()[pri:7, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1Loging" duration-ms="6032" started-at="2021-06-05T17:39:02 IST" finished-at="2021-06-05T17:39:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1Loging -->
+        <test-method status="PASS" signature="User2()[pri:8, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2" duration-ms="11398" started-at="2021-06-05T17:39:08 IST" finished-at="2021-06-05T17:39:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2 -->
+        <test-method status="PASS" signature="User1logout()[pri:9, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1logout" duration-ms="2367" started-at="2021-06-05T17:39:20 IST" finished-at="2021-06-05T17:39:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1logout -->
+        <test-method status="PASS" signature="User2Loging()[pri:10, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2Loging" duration-ms="5367" started-at="2021-06-05T17:39:22 IST" finished-at="2021-06-05T17:39:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2Loging -->
+        <test-method status="PASS" signature="User3()[pri:11, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User3" duration-ms="11342" started-at="2021-06-05T17:39:27 IST" finished-at="2021-06-05T17:39:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User3 -->
+        <test-method status="PASS" signature="User2Logout()[pri:12, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2Logout" duration-ms="2336" started-at="2021-06-05T17:39:39 IST" finished-at="2021-06-05T17:39:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2Logout -->
+        <test-method status="PASS" signature="Admin1login()[pri:13, instance:com.logfourj.practices.HomeWork10@1060b431]" name="Admin1login" duration-ms="2299" started-at="2021-06-05T17:39:41 IST" finished-at="2021-06-05T17:39:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin1login -->
+        <test-method status="PASS" signature="ModifyUser1()[pri:14, instance:com.logfourj.practices.HomeWork10@1060b431]" name="ModifyUser1" duration-ms="12945" started-at="2021-06-05T17:39:43 IST" finished-at="2021-06-05T17:39:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser1 -->
+        <test-method status="PASS" signature="Admin1logout()[pri:15, instance:com.logfourj.practices.HomeWork10@1060b431]" name="Admin1logout" duration-ms="2415" started-at="2021-06-05T17:39:56 IST" finished-at="2021-06-05T17:39:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin1logout -->
+        <test-method status="PASS" signature="User1LogingAgain()[pri:16, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1LogingAgain" duration-ms="2329" started-at="2021-06-05T17:39:59 IST" finished-at="2021-06-05T17:40:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1LogingAgain -->
+        <test-method status="PASS" signature="ModifyUser2()[pri:17, instance:com.logfourj.practices.HomeWork10@1060b431]" name="ModifyUser2" duration-ms="13052" started-at="2021-06-05T17:40:01 IST" finished-at="2021-06-05T17:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser2 -->
+        <test-method status="PASS" signature="User1logoutAgain()[pri:18, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1logoutAgain" duration-ms="2296" started-at="2021-06-05T17:40:14 IST" finished-at="2021-06-05T17:40:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1logoutAgain -->
+        <test-method status="PASS" signature="User2LogingAgain()[pri:20, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2LogingAgain" duration-ms="2328" started-at="2021-06-05T17:40:16 IST" finished-at="2021-06-05T17:40:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2LogingAgain -->
+        <test-method status="PASS" signature="ModifyUser3()[pri:21, instance:com.logfourj.practices.HomeWork10@1060b431]" name="ModifyUser3" duration-ms="12789" started-at="2021-06-05T17:40:19 IST" finished-at="2021-06-05T17:40:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModifyUser3 -->
+        <test-method status="PASS" signature="User2LogoutAgain()[pri:22, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2LogoutAgain" duration-ms="2328" started-at="2021-06-05T17:40:31 IST" finished-at="2021-06-05T17:40:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2LogoutAgain -->
+        <test-method status="PASS" signature="User2LogingAgainAgain()[pri:23, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2LogingAgainAgain" duration-ms="2457" started-at="2021-06-05T17:40:34 IST" finished-at="2021-06-05T17:40:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2LogingAgainAgain -->
+        <test-method status="PASS" signature="deleteUser3()[pri:24, instance:com.logfourj.practices.HomeWork10@1060b431]" name="deleteUser3" duration-ms="9831" started-at="2021-06-05T17:40:36 IST" finished-at="2021-06-05T17:40:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser3 -->
+        <test-method status="PASS" signature="User2LogoutAgainAgain()[pri:25, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User2LogoutAgainAgain" duration-ms="2329" started-at="2021-06-05T17:40:46 IST" finished-at="2021-06-05T17:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User2LogoutAgainAgain -->
+        <test-method status="PASS" signature="User1LogingAgainAgain()[pri:26, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1LogingAgainAgain" duration-ms="2329" started-at="2021-06-05T17:40:48 IST" finished-at="2021-06-05T17:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1LogingAgainAgain -->
+        <test-method status="PASS" signature="deleteUser2()[pri:27, instance:com.logfourj.practices.HomeWork10@1060b431]" name="deleteUser2" duration-ms="9807" started-at="2021-06-05T17:40:51 IST" finished-at="2021-06-05T17:41:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser2 -->
+        <test-method status="PASS" signature="User1logoutAgainAgain()[pri:28, instance:com.logfourj.practices.HomeWork10@1060b431]" name="User1logoutAgainAgain" duration-ms="2351" started-at="2021-06-05T17:41:01 IST" finished-at="2021-06-05T17:41:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User1logoutAgainAgain -->
+        <test-method status="PASS" signature="Admin1loginAgain()[pri:29, instance:com.logfourj.practices.HomeWork10@1060b431]" name="Admin1loginAgain" duration-ms="2253" started-at="2021-06-05T17:41:03 IST" finished-at="2021-06-05T17:41:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin1loginAgain -->
+        <test-method status="PASS" signature="deleteUser1()[pri:30, instance:com.logfourj.practices.HomeWork10@1060b431]" name="deleteUser1" duration-ms="9894" started-at="2021-06-05T17:41:05 IST" finished-at="2021-06-05T17:41:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser1 -->
+        <test-method status="PASS" signature="Admin1logoutAgainAgain()[pri:31, instance:com.logfourj.practices.HomeWork10@1060b431]" name="Admin1logoutAgainAgain" duration-ms="2344" started-at="2021-06-05T17:41:15 IST" finished-at="2021-06-05T17:41:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin1logoutAgainAgain -->
+        <test-method status="PASS" signature="closeApplication()[pri:32, instance:com.logfourj.practices.HomeWork10@1060b431]" name="closeApplication" duration-ms="222" started-at="2021-06-05T17:41:17 IST" finished-at="2021-06-05T17:41:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork10 -->
+      <class name="com.logfourj.practices.HomeWork1">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:1, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="LaunchBrowser" duration-ms="2881" started-at="2021-06-05T17:32:09 IST" finished-at="2021-06-05T17:32:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="navigate()[pri:2, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="navigate" duration-ms="5345" started-at="2021-06-05T17:32:12 IST" finished-at="2021-06-05T17:32:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="login" duration-ms="6607" started-at="2021-06-05T17:32:17 IST" data-provider="getLoginCredentials" finished-at="2021-06-05T17:32:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateUser()[pri:4, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="CreateUser" duration-ms="7686" started-at="2021-06-05T17:32:24 IST" finished-at="2021-06-05T17:32:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method status="PASS" signature="DeleteUser()[pri:5, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="DeleteUser" duration-ms="8331" started-at="2021-06-05T17:32:31 IST" finished-at="2021-06-05T17:32:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+        <test-method status="PASS" signature="logout()[pri:6, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="logout" duration-ms="2435" started-at="2021-06-05T17:32:40 IST" finished-at="2021-06-05T17:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:7, instance:com.logfourj.practices.HomeWork1@371a67ec]" name="closeApplication" duration-ms="303" started-at="2021-06-05T17:32:42 IST" finished-at="2021-06-05T17:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.logfourj.practices.HomeWork1 -->
+    </test> <!-- Scenarios -->
+  </suite> <!-- Automation -->
+</testng-results>
